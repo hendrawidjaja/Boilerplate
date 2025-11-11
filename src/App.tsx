@@ -1,21 +1,11 @@
-import viteLogo from "/vite.svg";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
+import ContainerImage from "@atomic/ContainerImage.tsx";
 
 function App() {
   return (
-    <div className="container">
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-
-      <h1>Vite + React + Typescript + Biome Boilerplate</h1>
+    <div className="container" data-testid="container">
+      <ContainerImage />
+      <h1 data-testid="title">Vite + React + Typescript + Biome Boilerplate</h1>
     </div>
   );
 }

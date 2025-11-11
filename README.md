@@ -7,6 +7,7 @@ gitattributes and some biome rules.
 
 ```
   bun update --latest
+  pnpm update --latest
 ```
 
 ### This boilerplate configured
@@ -14,6 +15,8 @@ gitattributes and some biome rules.
 ```
   biome config
   typescript config
+  typescript env
+  vite env
   several folders
   partials styles
 ```
